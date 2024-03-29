@@ -1,9 +1,13 @@
 # CMake Tutorial
 
-## Generating a Project
+## Generating a Project [Default]
+
+<!-- GenerateProjectSectionStart -->
+
+To generate build files for GNU make:
 
 ```bash
-cmake [<options>] -S <path-to-source> -B <path-to-build>
+cmake [<options>] -S <path-to-cmakeList-source> -B <path-to-build>
 ```
 
 Assuming that a CMakeLists.txt is in the root directory, you can generate a project like the following.
@@ -21,6 +25,7 @@ Assuming that you have already built the CMake project, you can update the gener
 cd build
 cmake .
 ```
+<!-- GenerateProjectSectionEnd -->
 
 ## Generator for GCC and Clang
 
