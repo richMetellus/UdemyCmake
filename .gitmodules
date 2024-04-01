@@ -1,3 +1,6 @@
 [submodule "2_CMake/07_Submodules/external/json"]
 	path = 2_CMake/07_Submodules/external/json
 	url = https://github.com/nlohmann/json.git
+[submodule "2_CMake/16_VCPKG/external/vcpkg"]
+	path = 2_CMake/16_VCPKG/external/vcpkg
+	url = https://github.com/microsoft/vcpkg.git
